@@ -8,10 +8,10 @@
 
 #logo {
   font-size: 40px;
-  color: rgb(3, 3, 133);
+  color: rgb(226, 38, 94);
   text-align: center;
   font-weight: bold;
-  border: 3px solid gray;
+  border: 3px solid rgba(128, 128, 128, 0.687);
   display: inline;
   margin: 40%;
   padding: 3px;
@@ -28,7 +28,7 @@ ul {
   padding-left: 0;
   margin: 0%;
   font-weight: 300;
-  background-color: black;
+  background-color: rgb(242, 84, 84);
   display: flex;
 }
 a {

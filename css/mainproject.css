@@ -5,8 +5,8 @@
 /*HEADER*/
 
 #logo {
-  font-size: 40px;
-  color: rgb(79, 3, 133);
+  font-size: 30px;
+  color: rgb(226, 38, 94);
   text-align: center;
   font-weight: bold;
   border: 3px solid gray;
@@ -27,8 +27,8 @@ ul {
   padding-left: 0;
   margin: 1%;
   font-weight: 300;
-  color: bisque;
-  background-color: black;
+
+  background-color: rgb(244, 138, 138);
   display: flex;
 }
 
@@ -57,7 +57,7 @@ li a:hover {
 }
 
 body {
-  background-color: rgba(254, 254, 254, 0.404);
+  background-color: black;
 }
 
 footer {
@@ -69,7 +69,7 @@ footer {
 /*Category Section*/
 
 .project-image {
-  width: 70%;
+  width: 60%;
 }
 
 .section1 {
@@ -78,9 +78,17 @@ footer {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .project-image2 {
-  width: 55%;
+  width: 35%;
+}
+
+.section1 {
+  width: 50%;
+}
+
+.discription {
+  color: peru;
 }
