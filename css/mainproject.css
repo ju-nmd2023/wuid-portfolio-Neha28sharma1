@@ -5,13 +5,13 @@
 /*HEADER*/
 
 #logo {
-  font-size: 30px;
+  font-size: 200%;
   color: rgb(226, 38, 94);
   text-align: center;
   font-weight: bold;
   border: 3px solid gray;
-  display: inline;
-  margin: 30%;
+  display: flexbox;
+  margin: 0%;
   padding: 2px;
 }
 
@@ -26,7 +26,7 @@ ul {
   list-style-type: none;
   padding-left: 0;
   margin: 1%;
-  font-weight: 300;
+  font-weight: 100%;
 
   background-color: rgb(244, 138, 138);
   display: flex;
@@ -47,23 +47,34 @@ li a:hover {
   background-color: #d14141;
 }
 
-/*MAIN*/
+@media screen and (max-width: 440px) {
+  ul,
+  header {
+    flex-direction: column;
+    align-items: start;
+    margin: 2%;
+    background-color: black;
+    margin: 0%;
+  }
+  li {
+    padding: 0%;
 
-.content2 {
-  font-size: 17px;
-  color: rgb(25, 2, 26);
-  text-align: left;
-  font-weight: bold;
+    margin: 3%;
+  }
 }
+
+/*MAIN*/
 
 body {
   background-color: black;
 }
+/*FOOTER*/
 
 footer {
-  border-top: 1px solid black;
+  margin-top: 10%;
+  border-top: 1px solid rgb(222, 218, 218);
   text-align: left;
-  color: black;
+  color: rgb(227, 222, 222);
 }
 
 /*Category Section*/
@@ -76,19 +87,35 @@ footer {
   margin: 0%;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+@media screen and (min-width: 314px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1%;
+  }
 }
 
 .project-image2 {
-  width: 35%;
+  width: 50%;
 }
 
 .section1 {
   width: 50%;
+  padding: 5%;
 }
 
 .discription {
   color: peru;
+}
+
+/*Project details*/
+p {
+  color: rgb(225, 223, 220);
+  margin-left: 1%;
+  font-size: 80%;
+}
+
+.detail-image {
+  width: 20%;
+  margin-left: 1%;
 }
