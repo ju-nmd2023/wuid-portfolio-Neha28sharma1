@@ -114,3 +114,8 @@ form {
   background-color: black;
   padding: 7px;
 }
+@media screen and(max-width: 262px ) {
+  form {
+    border: none;
+  }
+}
