@@ -81,6 +81,11 @@ h2 {
   font-weight: bold;
   margin: 1%;
 }
+button {
+  color: #d14141;
+  background-color: black;
+  margin-top: 1%;
+}
 
 body {
   background-color: rgb(141, 139, 139);
